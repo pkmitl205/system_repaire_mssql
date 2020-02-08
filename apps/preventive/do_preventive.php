@@ -64,7 +64,7 @@ if(isset($_GET["action"]) && $_GET["action"] == "save_preventive"){
         }
 
         try{
-            $sql = "INSERT INTO $table (name)values (:preventive_name);  ";
+            $sql = "INSERT INTO $table (name,status)values (:preventive_name,'Y');  ";
            // $sql .= " name = :preventive_name ";
             // $sql .= "  WHERE id = :id  ";
             $stmt = $conn->prepare($sql);
