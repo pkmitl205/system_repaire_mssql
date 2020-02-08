@@ -2,6 +2,7 @@
 
 $app_route = array(
     "dashboard" => "apps/dashboard/index.php",
+    "calendar" => "apps/calendar/index.php",
     "profile" => "apps/profile/index.php",
     "users" => "apps/users/index.php",
     "users/view" => "apps/users/view.php",
@@ -13,7 +14,8 @@ $app_route = array(
     "types" => "apps/types/index.php",
     "osname" => "apps/osname/index.php",
     "status" => "apps/status/index.php",
-    "brand" => "apps/brand/index.php",
+    "preventive" => "apps/preventive/index.php",
+      "brand" => "apps/brand/index.php",
     "inventory" => "apps/inventory/index.php",
     "inventory/add" => "apps/inventory/add.php",
     "inventory/edit" => "apps/inventory/edit.php",
@@ -26,6 +28,7 @@ $app_route = array(
 
 $app_route_js = array(
     "dashboard" => "apps/dashboard/js/index.js",
+    "calendar" => "apps/calendar/js/index.js",
     "profile" => "apps/profile/js/index.js",
     "users" => "apps/users/js/index.js.js",
     "users/add" => "apps/users/js/add.js",
@@ -36,6 +39,7 @@ $app_route_js = array(
     "types" => "apps/types/js/index.js",
     "osname" => "apps/osname/js/index.js",
     "status" => "apps/status/js/index.js",
+    "preventive" => "apps/preventive/js/index.js",
     "brand" => "apps/brand/js/index.js",
     "inventory" => "apps/inventory/js/index.js",
     "inventory/add" => "apps/inventory/js/add.js",
